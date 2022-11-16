@@ -1,0 +1,13 @@
+{
+	"errCode":200,
+	"data":[
+		{
+			"word":"A",
+			"remember":"a"
+		},
+		{
+			"word":"B",
+			"remember":"b"
+		}
+	]
+}
