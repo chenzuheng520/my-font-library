@@ -22,21 +22,67 @@
 			{
 				"imgUrl":"https://my-font-library.pages.dev/qichuanbao/product/product-1.jpg",
 				"imgText":"",
-				"imgHref":""
+				"imgHref":"",
+				"type":"image"
 			},
 			{
 				"imgUrl":"https://my-font-library.pages.dev/qichuanbao/product/product-2.jpg",
 				"imgText":"",
-				"imgHref":""
+				"imgHref":"",
+				"type":"image"
 			},
 			{
 				"imgUrl":"https://my-font-library.pages.dev/qichuanbao/product/product-3.jpg",
 				"imgText":"",
-				"imgHref":""
+				"imgHref":"",
+				"type":"image"
 			},
 			{
 				"imgUrl":"https://my-font-library.pages.dev/qichuanbao/product/product-4.jpg",
 				"imgText":"",
+				"imgHref":"",
+				"type":"image"
+			}
+		],
+		"plant":[
+			{
+				"imgUrl":"https://my-font-library.pages.dev/qichuanbao/plant/plant-1.jpg",
+				"imgText":"保利春天度假区别墅施工",
+				"imgTime":"2023-3-1",
+				"imgHref":"",
+				"type":"vedio"   //vedio
+			},
+			{
+				"imgUrl":"https://my-font-library.pages.dev/qichuanbao/plant/plant-2.jpg",
+				"imgText":"保利半山莱茵水岸灰泥施工",
+				"imgTime":"2023-2-1",
+				"imgHref":"",
+				"type":"image"
+			}
+		],
+		"team":[
+			{
+				"imgUrl":"https://my-font-library.pages.dev/qichuanbao/team/sheji1.jpg",
+				"name":"杰森",
+				"posi":"首席设计师",
+				"imgHref":""
+			},
+			{
+				"imgUrl":"https://my-font-library.pages.dev/qichuanbao/team/sheji2.jpg",
+				"name":"强尼",
+				"posi":"高级设计师",
+				"imgHref":""
+			},
+			{
+				"imgUrl":"https://my-font-library.pages.dev/qichuanbao/team/sheji3.jpg",
+				"name":"汤姆",
+				"posi":"高级设计师",
+				"imgHref":""
+			},
+			{
+				"imgUrl":"https://my-font-library.pages.dev/qichuanbao/team/sheji4.jpg",
+				"name":"克蕾丝",
+				"posi":"高级设计师",
 				"imgHref":""
 			}
 		]
