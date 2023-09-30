@@ -1,60 +1,1835 @@
 {
-	"errCode":200,
-	"data":[
-		{
-			"word":"犬（いぬ）",
-			"zh-cn":"狗-罗马读音【inu】",
-			"remember":[
-				"一怒:一见到陌生人就发怒"
-			],
-			"groups":[
+	"errCode": 200,
+	"notice":"通知：1、中秋国庆双节快乐！已推出了中秋节和国庆节贺卡系列，快去送上祝福吧～",
+	"wordsOfDay":[
+		"生活是公平的，哪怕吃了很多苦，只要你坚持下去，一定会有收获，即最后失败了，你也获得了别人不具备的经历。",
+		"心中有梦想就有追求，希望在那就一直坚持到底，不是每个努力付出的人都会得到回报，但是你连付出都没有，也别指望着天上掉馅饼。",
+		"最温暖的不是阳光，是善良的心；最美丽的不是花朵，是微笑的脸；最舒适的不是公寓，是自己的家；最美好的不是未来，是今天。",
+		"社会不是亲妈，不会惯着你，社会就是后妈，总在刁难你。如果有一天，你撑不住了想放弃的时候，想一想当初的满腔热血。没有谁不辛苦，没有路全平整。贵在坚持，败在放弃。",
+		"如果你的选择是错误的，那么放弃，就是一种最明智的选择。坚持固然可贵，但方向才最重要。如果知道是错误的选择，那就放弃吧，别浪费自己的时间。",
+		"今日复今日，今日何其少！今日又不为，此事何时了！人生百年几今日，今日不为真可惜！若言始待明朝至，明朝又有朝朝事。为君聊赋今日诗，努力请从今日始。",
+		"菩提本无树，明镜亦非台。本来无一物，何处惹尘埃。",
+		"没什么好抱怨的，今天的每一步，都是在为之前的每一次选择买单，这也叫担当；没什么好抱怨的，今天的每一步，都是在为今后的每一点成功布局，这也叫沉淀。人生就是这样，你不承担责任，就不成长；你不付出，就得不到。",
+		"路，还是要自己走；事，还是要自己去懂。其实，坚持自己就是最美丽的自己。当你羡慕别人的时候，别人又何尝不是这样看你，只是你觉察不到罢了；我们嫉妒别人的成功，总是怀疑自己太失败，其实只要有事做，有饭吃，有人爱，那样你就成功了。",
+		"当知道为自己而读书时，你长大了；敢于面对生活时，你成长了；勇于创造人生时，你成材了。不要怕忙，忙是营养；不要怕孤独，这时才是真正的自己。人若低能，满目悲催；懂得欣赏，才是天成的无畏。都知道人生是一个圈，但要努力把它变成一个圆融的圆。奋斗，是一种乐趣；挫折，是一种磨练。",
+		"当我们明白人生和自我都不是用来战胜而是用来相处的时，我们就会明白，有些东西并不合理，但必须相信；有些东西并不牢固，但必须依靠。学会驾驭自己的生活，即使困难重重，也要满怀信心的向前。不自怜、不自卑、不哀怨，一日一日过，一步一步走，那份柳暗花明的喜乐和必然的抵达，在于我们自己的修持。",
+		"真正的自由，就是在你无所依傍之时，发现前面无路而处处都是路。人生有时就是如此，要想比别人优秀，就要付出十分的努力只有付出十分的努力，并且能够一直坚持到底的人，才能比别人优秀，才能先于别人取得成果，取得成功。",
+		"人生注定曲折坎坷，命运不会讨好谁，更不会怜悯谁，你的看不惯，你的想不通，将会伴随着你的生活，那是自己在折磨自己，自己在摧残自己，与别人无关，怨不得任何人，如果你有足够的坚强，走过去，你就会成长。其实，路就在脚下，遇到些风风雨在所难免，只要你坚持，坚强的你就会写出完美的人生。"
+	],
+	"cardText":{
+		"birthTextArr":[
+			"我虽然不能陪你度过今天这个非凡的日子，在遥远地方，我一样祝福你生日快乐!",
+			"我把心舟满载的幸福与喜悦，悄悄带给你：生日快乐。",
+			"一个小小的问候，是我对朋友无限的挂念;一句轻轻的祝福，是我对朋友真诚的眷恋;一首悠悠的心曲，是我对朋友生日的期盼;祝愿朋友生日乐欢天!",
+			"茫茫人海，我们相遇，一种缘，一种分。彼此形影相依，我们永不分离。有甜一起享，有苦一起担。同舟共济那些年，是我们永远无法忘怀。生日快乐!",
+			"今天我学会了一首歌，好想唱给你听，可又离你那么远，只能告诉你是什么名字了，你一定要目不转睛盯着屏幕，好了，看到了吗!嘿嘿，生日快乐。",
+			"我怕白天声音太嘈杂，天使听不到我的声音，如今夜里终于安静下来，那么我也可以祝你生日快乐了。",
+			"愿祝福萦绕着你，在你缤纷的人生之旅，在你永远与春天接壤的梦幻里。祝你：心想事成、幸福快乐！生日快乐！"
+		],
+		"ydTextArr":[
+			"元旦将至，美妙的钟声又要敲响，让它敲响你年的幸运之门，带给你一整年的健康平安、幸福快乐、如意吉祥。提前祝你元旦快乐!",
+			"元旦的钟声即将响起，深深的思念已经传递，暖暖的问候藏在心底，真心的祝愿全部送给你。预祝你元旦快乐，万事如意，财运滚滚，一生平安！",
+			"元旦到来新年到，过去烦恼随风飘，忧愁往事已忘掉，幸福快乐齐来到，遇事记得常微笑，坚强乐观心情好，万事顺利乐逍遥，新年一定会更好!",
+			"元旦到了，思念是我的牵盼，短信是我的书笺。清风是我的拥抱，美酒是我的衷肠。钟声是我的问候，礼花是我的祝愿。雪花是我的贺卡，快乐是我的礼物!",
+			"元旦将至，送你：个祝福，一年四季的平安，个月的财运，天的圆满，小时的幸福，分钟的快乐，秒开心，愿你新年快乐!",
+			"雄赳赳，气昂昂，时间飞短，情谊流长。昨日已逝，新年将至，又是一个幸福的开始，又是一个崭新的希望!元旦，绽放开心笑容，一年好心情。元旦快乐!",
+			"新年翩翩而至，旧岁渐渐而逝。元旦的到来，伴随着我的祝福，满怀希望的望眼幸福，携手快乐欢度这个新年的的伊始，我们大声喊出“元旦快乐”!",
+			"元旦到，祝福到，祝你万事如意了，一生永远无烦恼！祝你事业有成，心想事成，工资加成，职位提升，恋爱美成，幸福一生！",
+			"喜乐开怀大年到，眉开眼笑幸福绕。身体健康美满笑，鸿运当头彩霞照。五福临门喜眉梢，长命百岁财神抱。喜乐年华财源滚，加官晋级步步高。愿友元旦快乐度！",
+			"新年到，鸿运照，烦恼的事儿往边靠，祝君出门遇贵人，在家听喜报！年年有此时，岁岁有今朝！愿你和你的家人幸福快乐！万事如意！",
+			"元旦到，新的一年开始了。早起不把别事想，先把祝福来送到。祝你鸿运当头高高照，事业顺心无烦恼，家庭和睦无争吵，钱财滚滚进腰包！"
+		],
+		"sdTextArr":[
+			"平平安安平安夜，快快乐乐圣诞节，甜甜蜜蜜陪情人，开开心心会朋友，幸幸福福度佳节。愿你的长筒袜塞满温馨的祝福和美好的礼物！节日愉快！",
+			"滑落的流星，是我对你的思念；飞舞的雪花，是我对你的牵挂，闪烁的圣诞树，是我对你的祝福。愿你拥有一个幸福快乐的平安夜。",
+			"我默默地祈祷，愿圣诞老人能在这个即将到来的圣诞之夜，送我一个同我牵手同伴共同度过这奇妙的圣诞夜，结果它将你送给了我。",
+			"到了圣诞节，来到圣诞夜，戴着圣诞帽，穿着圣诞衣，唱着圣诞歌，传着圣诞音，骑着圣诞鹿，拉着圣诞车，载满圣诞礼物，来到你身边，放到你枕边。吻吻睡熟的你，给你个大惊喜：祝你圣诞节快乐！",
+			"温馨的是平安夜，快乐的是圣诞节，悠扬的是鹿铃声，璀璨的是五彩灯，轻柔的是牵挂情，暖暖的是朋友心，忙碌的是短信响，幸福的是祝福到。圣诞快乐！"
+		],
+		"xiaonTextArr":[
+			"小年到，雪花飘，瑞雪纷飞丰年兆；送灶神，扫灶膛，好运连连来送到；贴窗花，购年货，辛苦繁忙开颜笑。愿你小年多快乐，幸福美满永围绕！",
+			"小年到来年味浓，大街小巷灯笼红。人潮如水街上涌，购物忙碌闹哄哄。家中卫生都打扫，干干净净开笑容。单等新春年到，合家团聚乐融融。朋友祝福潮你涌，问候不断情谊重。小年快乐！",
+			"该吃吃，该喝喝，遇事别往心里搁；泡着澡，看着表，舒服一秒是一秒；甜的多，苦的少，生活像颗五味枣；心情好，最重要，快乐幸福乐逍遥！小年快乐。",
+			"敲起锣，打起鼓，小年欢笑又歌舞；福星照，新年到，福神对你呵呵笑；事业火，钞票多，一路唱响平安歌；好运旺，身体棒，快乐吉祥又安康！",
+			"小年到，人繁忙，打扫卫生净灶膛；室清洁，心欢畅，购物买菜街上逛；贴窗花，备佳肴，新年准备都妥当。祝你小年好运到，快快乐乐无烦恼！",
+			"茫茫人海，你是我不能放弃的牵挂，也是我最无法释怀的无奈，无论你走到哪里，我都会祝福你，小年快乐，年年德福！"
+		],
+		"chuxiTextArr":[
+			"大年齐团圆，红烛摇曳情连连。合家围坐叙家常，畅享天伦心飞扬。杯盘碗盏尽佳肴，举手投足皆欢笑。电话短信连成片，拜年祝福心相牵。除夕快乐。",
+			"除夕鞭炮齐冲天，烟花璀璨洒漫天。舞猴舞狮喜庆浓，张灯结彩过大年。子孙围着老人转，一齐拜年压岁钱。亲朋相至备盛宴，新年顺畅更团圆。祝除夕快乐！大吉大利！",
+			"烟花璀璨星星笑，千里归故路迢迢。辞旧迎新放鞭炮，出除夕团圆家人跳。全员动手年夜饺，玉盘盛满如元 宝。财纳四方品玉饺，喜乐守岁到天晓。祝你除夕全家福！",
+			"除夕夜无眠，烟火铺满天。家家摆酒宴，欢声拜新年：祝事事无烦恼，样样平顺安；贺康乐欢喜年，团聚阖家欢！除夕夜，祝你新年吉祥。万事如意！",
+			"千里万里雪花飘，家家户户放鞭炮。驱除污与烦恼，洁净大地过新年。快乐幸福留人间，吉祥话语满春联。同吃幸福年夜饭，举杯快乐大拜年。新年快乐！",
+			"举杯欢庆除夕夜，万家共饮吉祥年，鞭炮奏响佳节乐，对联写满幸福春，又是一年除夕到，美好祝福送君，愿君万事皆如意，合家欢乐百事兴，除夕快乐！",
+			"大年初一给你拜年了，祝福是份真心意，不用千言，不用万语，默默地唱首心曲，愿你岁岁平安如意！",
+			"今天是大年初一，在新的1年开始之际，祝愿你好事接2连3，心情4季如春，生活5颜6色7彩缤纷，偶尔8点小财，烦恼抛到9霄云外！请接受我10心10意的祝福。",
+			" 年初一祝你：一元复始，万象更新；年年如意，岁岁平安；财源广进，富贵吉祥；幸福安康，吉庆有余；竹报平安，幸福满门！",
+			"新年新气象，祝福送不断，初二祝福到。迎来春节，送走冬季，迎来春天，迎来拼搏。祝你事业步步高，幸福永绵绵！",
+			"天灵灵，地灵灵，开手机，行不行，思不断，念不乱，年初二，祝福看，合家欢，财源宽，朋友广，祝福爽，若聚会，勿贪杯，祝愉快，永平安。",
+			"大年初三，开门大吉，喜气洋洋拜大年。一拜全家好，二拜困难少。三拜烦恼消，四拜不变老。五拜儿女孝，六拜幸福绕。七拜忧愁抛，八拜收入高。九拜平安罩，十拜乐逍遥。",
+			"大年初三，好运翻番；过大年，放鞭炮；团圆饭，好味道；人团圆，喜气闹；家安乐，福气报；平安符，家里罩；幸运签，都抽到；新一年，万事好！",
+			"大年初四，万象更新。给你拜年啦，愿你身体好，心情好，时时处处随“新”所欲。事业旺，财运旺，桩桩件件称“新”如意。春节快乐。",
+			"每年大年初四，祝福就像海洋一样涌向你，希望段中洋的祝福像一叶扁舟，载你乘风破浪，到达成功的彼岸。",
+			"正月初五财神到，新春喜洋洋，福星耀华堂，生意更兴隆，儿女题金榜，人人都如意。恭喜发财！",
+			"今天初五，财神节，我愿用刻骨的柔情浓浓的温情无悔的真情，换你一片恬淡的风情暖暖的深情永远的感情！早安！",
+			"大年初六顺临门，祝你好运六六顺，一祝工作事业顺，二祝幸福家庭顺，三祝成绩学业顺，四祝加薪财运顺，五祝身体健康顺，六祝和睦邻里顺。早安！",
+			"正月初六到，送你四个“同心圆”：心圆梦圆，团团圆圆；财源福源，左右逢源；情缘友缘，相逢有缘；心愿祝愿，愿愿随心，祝你春节快乐。",
+			"大年初七祝福到，愿你抱着平安，拥着健康，揣着幸福，携着快乐，搂着温馨，带着甜蜜，牵着财运，拽着吉祥，迈入新年，快乐度过每一天！",
+			"年初八，好运来，幸福家，财星照，财神抱，财门开，财运到，笑呵呵，乐逍遥，好日子，天天有，祝福你，财源滚，财气旺，行大运，万事昌，发一发，满心喜，满家发！",
+			"大年初八想要发，发送祝福传万家，传给你如意吉祥把家发，传给他幸福安康把财发，传给我欢欣鼓舞短信发，万事金安、好运银连！"
+		],
+		"yuanxiaoTextArr":[
+			"元宵佳节，团团圆圆！我祝您：左右逢'圆'广进财源！人缘福缘，'圆'圆'不断！甜甜蜜蜜，营养康健，幸福美满！",
+			"灯笼红红，月亮皎皎，朗朗乾坤，思念普照。圆圆元宵，祝福为勺，圆你心愿，圆你梦晓。",
+			"元宵节快到了，送你一轮圆月，让明月带上我的祝福，寄去我的祝愿，明月生辉度佳节。愿你在新的一年里，事事顺心，愿“梦”圆圆！",
+			"月波浪滔滔，映衬你欢笑，祝福静悄悄，为你庆元宵，愿你少烦恼，开心不能少，天天心情好，事情件件妙，问候来报道，愿你节日好。朋友，祝元宵快乐。",
+			"一声声锣鼓，一阵阵沸腾，一幕幕烟火，一盏盏彩灯，和着二月丝丝缕缕的微风踱进你心窝，祝愿你：元宵快乐！",
+			"灯十五灯笼门前悬，迎送亲朋照途前。十五赏月元宵品，甜蜜团圆幸福长。今此一别告一段，奔赴岗位工作干。来日方长庆功饮，再聚齐欢丰功宴。愿朋友十五欢颜，干事业连年辉煌！"
+		],
+		"qingrenTextArr":[
+			"不论阴晴圆缺，对你的心始终明亮的；不论时间久远，对你的情永恒不变的；不论是否在你身边，止不住对你深切的思念。2、14情人节，愿你快乐相伴，开心绕缠！",
+			"从遇见你时的相盼，到不久后的相恋，再到此时的相思，亲爱的，我们一起渡过了无数的日日夜夜，我们曾经一起难过，也一起开心过。祝情人节你我一起快乐。",
+			"丝丝清风缠你心情万缕，绵绵夏雨拌我思念如潮。寄语白云朵朵，与你共赏情人节。说不尽相思苦，道不完爱你浓，情人节明月能传情，只望鹊桥可相会，爱你到永远！祝你情人节快乐。",
+			"浅浅相遇，深深相惜，心心相念，携一份牵挂穿过细水长流的平淡，与你长相厮守，一路走下去，依然相爱如昔，浪漫甜蜜，温暖相望，爱意无限。情人节，牵手一辈子，幸福无尽头。",
+			"一心一意爱着你，永不离弃伴随你，幸福甜蜜拥有你，真心实意呵护你，爱你到老我愿意，句句真言表心意。14情人节，亲爱的，我爱你。",
+			"今生与你相识，再无遗憾；今朝和你相知，三生有幸；今世你我相恋，缘分已定；情人节到了，今宵有你陪伴，我的世界灿烂一片。亲爱的，我陪你过情人节。"
+		],
+		"nvshengTextArr":[
+			"你的笑，比过蒙娜丽莎；你的美，颠倒红尘众生；你的气质，折服万千美人；你的端庄，超越女神雅典娜；你的今生，享受瞩目和荣耀。女神节愿你过得开心！女神节快乐！",
+			"女神节到了，我祝你身体倍棒，健康富；恋人甜蜜，爱情富；鸿运当头，运气富；合家幸福，家庭富；金榜题名，学业富；大展宏图，前途富！你就是真正的富女！快来都给我们沾沾光！女神节快乐！",
+			"三八女神节，用爱情为你梳头，用快乐为你洗脸，用美满为你装点，用幸福为你增色，用甜蜜为你进餐，用短信为你祝福，祝你永远健康，美丽，吉祥。女神节快乐！",
+			"相伴人生路，共度寒暑天；此情无杂物，唯有一真心。女神节了，用心为你祈福，年年岁岁如意，时时刻刻开心。",
+			"女人不必太美，要有人深爱，女人不必太富，要过的幸福，女人不必太强，要活得尊贵，女神节到了，祝女士们爱的真切，幸福的没边没界。女神节快乐！",
+			"三分思念七分牵挂，对你十分想念；三分温暖七分幸福，送你十分美好；三分甜蜜七分眷恋，对你十分痴情；三分炽热七分真诚，给你十分祝福。女神节到了，愿你的人生十分精彩，十分快乐！"
+		],
+		"yurenTextArr":[
+			"愚人节，请时刻保持警惕。愚人节，请小心一切未知事件。愚人节，记得用你聪明的大脑分辨。否则，我只能祝福你：愚人节快乐！",
+			"百乐愚为先，无愚则不乐。愚人节以愚乐当道，让我们抛开一切教条，放下所有矜持，尽情的愚乐吧！祝你愚得恰到其分，乐得无边！",
+			"愚人节到我心愁，想要愚人没缘由。聪明人儿到处有，各个都不会上钩。为博美女一回眸，只好就地翻跟头。愿你愚人节快乐，永远无忧！",
+			"恭喜你获得愚人节幸运大奖，鉴于你多年对愚人界的支持，特授予你最佳愚人称号，收到后请傻笑五分钟，并用头撞墙以示感谢，愚人节快乐哦！",
+			"愚情愚理，今天不能忘记你；愚人愚己今天祝你开心愚风愚雨，心里一直想着你；愚梦愚云，给生活来点激情；愚我愚你，愿你愚人得意！",
+			"宁愿是一杯水，润你的嘴，暖你的胃，到你心扉，冲走所有烦恼疲劳；宁愿是清风吹，带着甜味，陪你入睡，给你安慰，你的快乐伤悲，我都想体会。愚人节快乐！"
+		],
+		"muqinTextArr":[
+			"母亲是一首动人的歌，带给我们优美的旋律，教会我们做人的道理;母亲是一首悠扬的诗，引导我们仙灵的圣境，授予我们生活的哲理。祝天下所有的母亲节日快乐!",
+			"走遍千山万水，看过潮起潮落，历经风吹雨打，尝尽酸甜苦辣，始终觉得您的怀抱最温暖！不论我走多远，心中永远眷恋的都是您。祝妈妈母亲节快乐！健康长寿！永远年轻！",
+			"您给了我们生命;您给了我们温暖;您给了我们快乐;您给了我们教养;您给了我们道理;您给了我们希望;您给了你们伟大的母爱。母亲节，祝愿全天下的母亲母亲节快乐，身体健康，心情舒畅，生活幸福！",
+			"老妈，因为工作，我虽然没时间经常陪您，但我保证，以后有空，会经常陪您的！今天是母亲节了，祝您母亲节快乐！",
+			"我是您心中最大的牵挂，您是我心中永远的灯塔。愿亲爱的妈妈快乐安康，幸福吉祥！",
+			"妈妈，多年来您含辛茹苦，哺育我们成人，在这属于您的节日里，请接受我对您最深切的祝愿：节日快乐，永远年轻！",
+			"小时候，您教我将快乐“剪切”到画报上，将幸福“复制”到照片里。亲爱的妈妈，如今我愿将世间的健康都“粘贴”给你，将你的悲伤都“彻底删除”妈妈，母亲节快乐！"
+		],
+		"wu20TextArr":[
+			"我终于发现，这世界上有丰厚的爱，我不能辜负。于是我想对你说，我爱你，请你倾听……与你相识是一种缘，与你相恋是一种美，与你相伴是一种福，我愿和你相伴到永远。",
+			"我不是高调，只是突然开了窍，看着你会心跳；你对我如此重要，就像三餐不可缺少，也如氧气离不了；亲爱的别跑，我来把你照料，让你幸福冒泡！",
+			"我要缠你一辈子，千难险阻不逃退。不管你说的对不对，一切就当你全对。不管现实无情的社会，牵你双手向前走，愿为你心碎为你累，为你憔悴为你醉，为你守候一生不后悔。520我爱你，直到永久！",
+			"有些人注定要消失在岁月里，有些事注定要埋藏在记忆里，有些情注定要沉浸在蜂蜜里，有些爱注定要表白在嘴里。520网络情人节，爱你的心在我这里。",
+			"520，祝你快乐！你的过去我来不及参与，你的未来我不会再错过！真诚之中，与你相识相知；灵犀之间，与你朝夕相伴。"
+		],
+		"ertongTextArr":[
+			"保留你的童心，让快乐与你轻轻拥抱，保留你的童真，让困难见你偷偷跑掉，保留你的童颜，让吉祥与幸福对你永远微笑，六一儿童节到，祝你永远开心，活泼，安心。",
+			"童心是帆，祝福是船；快乐的风，吹着童心的帆，载着对你这长不大的朋友的祝福，漂向美丽的海湾，轻轻地问候你：六一节快乐！",	
+			"六一儿童节，与你“童”乐，祝所有的适龄儿童、超龄儿童，童心未泯的心理儿童，举止荒唐的老顽童，家有儿女的超级儿童，收到祝福的好儿童节日快乐，童心永驻，童趣常在。",
+			"我希望永远不要长大，快乐的在风雨中玩耍，我希望永远都不要欺骗，伤害的滋味真的很可怕，我希望永远不要摧残，美丽的风景任它四处开花，我希望所有的日子都是童心绽放的哈达，祝你六一节快乐！",
+			"有颗童心，一路欢欣；带着童真，美好共枕；满怀童趣，无限乐趣；与童年做伴，与快乐同行，祝你永远年轻，天天好心情！六一了，祝你儿童节快乐哈！"
+		],
+		"fuqinTextArr":[
+			"您的扶搀相伴，让我健康成长；您的严厉教诲，让我不断进步；您的希望牵挂，让我成才成功；您的支持鼓励，让我不怕风雨。伟大的父亲，谢谢您，祝您父亲节快乐，愿您幸福一生，健康永随！",
+			"你用宽广的胸襟包容我的过错，你用榜样的力量坚定我的理想，你用慈爱的笑容激励我的成功，你就是我一生敬爱的父亲。父亲节到了，爸爸，祝你健康幸福，开心快乐！",
+			"您固然没有细腻的爱，却有着粗犷的襟怀胸襟，教会我坚强的面临未来，碰到困难和难题也不会等闲倒下来。爸爸，谢谢您，祝您父亲节快乐！",
+			"敬爱的爸爸，祝福您岁岁愉快，年年如意。对我的爱，温暖如春；对我的照顾，无微不至；您是我的好爸爸，是我永远的骄傲，父亲节到了，送上真心的祝福，愿您父亲节过得快乐！",
+			"您的脸庞，挂在我的心上；您的关怀，牢记我的心房；您的嘱托，我知语重心长；您的快乐，是我最大的愿望。父亲节到来，祝福父亲幸福安康！",
+			"您的坚忍不拔和铮铮硬骨是我今生的榜样，我从您那儿汲取到奋发的力量，走过挫折，迈向成功，爸爸，您是我的榜样，父亲节要到了，想对您说：我爱您！祝您父亲节快乐！",
+			"你用勤劳耕耘着家庭的乐土，你用臂膀承担着生命的责任，你用胸怀包容着万千的坎坷，你用奉献谱写着人生的欢歌。父亲节到了，感谢爸爸的付出，愿爸爸幸福快乐。"
+		],
+		"duanwuTextArr":[
+			"五月到端午，愿你端来快乐，无烦无恼；端来好运，无时无刻；端来健康，无忧无虑；端来财富，五谷丰登；端来祝福，五彩缤纷。端午节安康！",
+			"端午佳节，喜上眉梢，菖蒲高挂，吉祥满屋，张灯结彩，喜笑颜开，龙舟竞驰，欢喜连连，粽叶飘香，神清气爽，送份祝福，聊表寸心，愿君开怀，幸福如意！身体健康，福寿绵长！",
+			"今日端午，愿您“端”起“五”好：端起吉祥，好运不倒；端起快乐，烦恼全消；端起财运，广纳钱宝；端起前途，事业走高；端起幸福，好运连连！祝您和家人端午安康！",
+			"端午节到，愿你‘端’起‘五’好：端起快乐，烦恼全消；端起吉祥，好运不倒；端起财运，广纳钱宝；端起前途，事业走高；端起幸福，如意逍遥！",
+			"安住当下，身心悉清凉；慈悲喜舍，福慧双增长！端午佳节，祝各位师兄欢喜吉祥，如意安康！"
+		],
+		"qixiTextArr":[
+			"我愿化作一枝玫瑰花，被你紧紧握在手里，为你吐露芬芳。亲爱的，七夕快乐！",
+			"你迷人的微笑，是我快乐的味道；你细腻的温柔，是我心动的征兆；你无限的幸福，是我没完没了的祈祷。七夕节快乐！",
+			"你的柔情，化作甘露滋润我的心田，你的呵护，化作轻风撩拨我的心弦，你的牵挂，化作无尽的思念。亲爱的，愿七夕快乐！",
+			"望天空，牛郎织女相会；看人间，帅哥美女成对。天上人间，有情人终成眷属，斗转星移。祝七夕快乐，爱情甜蜜！",
+			"七夕节，送你一个七彩的情缘；送你一个七彩的生活；送你一个七色的梦想；送上真诚的祝福：七夕快乐！",
+			"特别的日子，特别的祝福，送给特别的你：希望你更成熟，更顺利，更成功；要钞百票成堆，要情情溢四方，要福福满东海，七夕快乐！"
+		],
+		"teacherTextArr":[
+			"您用友爱缩短着心与心的路程，您是那阳光融化冷漠的冰雪，您是那向导引人走出科学的迷宫，桃李芬芳是你的欢乐，默默奉献无私的心灵。光荣的教师，辛勤的园丁，祝您教师节快乐！",
+			"师恩重如山，是您用知识照亮我们前进的道路，是我们人生路上的使者，默默陪伴我们成长！在这个属于您的节日里，让我通过电波把这份美好的祝福，送到您的身边！千言万语，唯剩感恩！祝您教师节快乐！"
+		],
+		"zhongqiuTextArr":[
+			"明月挂天边，祝福到眼前，愿您的生活像月饼圆圆满满，爱情象桂香甜蜜芬芳，事业象圆月光彩明亮，人生象彩灯璀璨多姿！祝您中秋节快乐！",
+			"真正的生命，春天不艳，秋天不凋；真正的情谊，贵时不重，贫时不轻；真正的快乐，节日不浓，平时不淡；真正的祝福，情真意切，韵味悠长！祝中秋快乐！",
+			"一缕阳光，开启美好的一天；一点思念，让真情在心中展现；一个微笑，为你把快乐增添；一个信息，传递美好的祝愿。祝中秋快乐，幸福平安。",
+			"九天云外揽明月，水月观音见真情；月落参天大树外，众星捧月真开心；朋友，祝福永不断，快乐万万年；祝福你中秋节快乐！",
+			"人月贺中秋，思念你我她！祝我们的友谊天长地久！象月亮那么明亮照转整个大地。中秋快乐！"
+		],
+		"guoqingTextArr":[
+			"国庆七天乐，祝愿你：身体健康，乐；幸福无疆，乐；事业辉煌，乐；好运连绵，乐；永远平安，乐；心想事成，乐；生活美满，乐。国庆快乐一起乐！",
+			"今天是国庆节，我祝你在这七天长假里，天天快乐、日日开心、时时幸福、刻刻平安、分分精彩、秒秒欢畅，最后还要永远微笑，国庆快乐！",
+			"国庆七天假，祝福送七打：一打笑哈哈，一打喜唰唰，一打顶呱呱，一打乐佳佳，一打福恰恰，一打财发发，一打好运哗啦啦。国庆快乐！",
+			"祝愿国庆节七天，天天快快乐乐168小时，时时开开心心10800分。",
+			"明朗朗的国庆，乐呵呵的你，贴心的问候送给你；清爽爽的金秋，笑盈盈的你，美好的生活等着你；喜庆庆的日子，福绵绵的你，吉祥好运属于你。国庆快乐！"
+		]
+	},
+	"swiperCard":{
+		"text":"中秋节",
+		"from": "jieri",
+		"key":"zhongqiu"
+	},
+	"songs":{
+		"ydSongArr":[
+			{
+				"songName":"",
+				"url":"https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/mp3/120.mp3"
+			}
+		],
+		"bSongArr":[
+			{
+				"songName":"",
+				"url":"https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/birthday/birthday.mp3"
+			}
+		],
+		"sdSongArr":[
+			{
+				"songName":"",
+				"url":"https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/mp3/sd.mp3"
+			}
+		],
+		"xiaonSongArr":[
+			{
+				"songName":"",
+				"url":"https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/mp3/xiaon.mp3"
+			}
+		],
+		"chuSongArr":[
+			{
+				"songName":"",
+				"url":"https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/mp3/chuxi.mp3"
+			}
+		],
+		"yuanxiaoSongArr":[
+			{
+				"songName":"",
+				"url":"https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/mp3/chuxi.mp3"
+			}
+		],
+		"qingrenSongArr":[
+			{
+				"songName":"",
+				"url":"https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/mp3/qingren.mp3"
+			}
+		],
+		"nvshengSongArr":[
+			{
+				"songName":"",
+				"url":"https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/mp3/qingren.mp3"
+			}
+		],
+		"yurenSongArr":[
+			{
+				"songName":"",
+				"url":"https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/mp3/yuren.mp3"
+			}
+		],
+		"muqinSongArr":[
+			{
+				"songName":"听妈妈的话-周杰伦",
+				"url":"https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/mp3/tingmmdehua.mp3"
+			}
+		],
+		"wu20SongArr":[
+			{
+				"songName":"合拍",
+				"url":"https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/mp3/hepai.m4a"
+			}
+		],
+		"ertongSongArr":[
+			{
+				"songName":"",
+				"url":"https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/mp3/ertong.mp3"
+			}
+		],
+		"fuqinSongArr":[
+			{
+				"songName":"父亲-筷子兄弟",
+				"url":"https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/mp3/fuqin.m4a"
+			}
+		],
+		"duanwuSongArr":[
+			{
+				"songName":"",
+				"url":"https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/mp3/duanwu.mp3"
+			}
+		],
+		"qixiSongArr":[
+			{
+				"songName":"合拍",
+				"url":"https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/mp3/hepai.m4a"
+			}
+		],
+		"teacherSongArr":[
+			{
+				"songName":"合拍",
+				"url":"https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/mp3/hepai.m4a"
+			}
+		],
+		"zhongqiuSongArr":[
+			{
+				"songName":"但愿人长久",
+				"url":"https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/mp3/zhongqiu.m4a"
+			}
+		],
+		"guoqingSongArr":[
+			{
+				"songName":"我和我的祖国",
+				"url":"https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/mp3/guoqing.m4a"
+			}
+		]
+	},
+	"holiday":{
+		"title":"2023全年放假安排",
+		"subTitle":"数据来自国务院公布的全年法定节假日安排",
+		"display":"table",
+		"detail":[
+			{
+				"type":"head",
+				"item1":"节日",
+				"item2":"放假时间",
+				"item3":"天数",
+				"item4":"状态"
+			},
+			{
+				"order":1,
+				"type":"body",
+				"item1":"元旦",
+				"item2":"12月31日 - 01月02日",
+				"item3":"3天",
+				"item4":"已休"
+			},
+			{
+				"order":2,
+				"type":"body",
+				"item1":"春节",
+				"item2":"01月21日 - 01月27日",
+				"item3":"7天",
+				"item4":"已休"
+			},
+			{
+				"order":3,
+				"type":"body",
+				"item1":"清明节",
+				"item2":"04月05日 - 04月05日",
+				"item3":"1天",
+				"item4":"未休"
+			},
+			{
+				"order":4,
+				"type":"body",
+				"item1":"劳动节",
+				"item2":"04月29日 - 05月03日",
+				"item3":"5天",
+				"item4":"未休"
+			},
+			{
+				"order":5,
+				"type":"body",
+				"item1":"端午节",
+				"item2":"06月22日 - 06月24日",
+				"item3":"3天",
+				"item4":"未休"
+			},
+			{
+				"order":6,
+				"type":"body",
+				"item1":"中秋/国庆节",
+				"item2":"09月29日 - 10月06日",
+				"item3":"8天",
+				"item4":"未休"
+			}
+		]
+	},
+	"changyong": {
+		"card": [{
+			"title": "生日贺卡",
+			"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/thumbnail/birth_thumb.jpg",
+			"from": "changyong",
+			"key": "birth",
+			"new":1
+		}],
+		"birth": {
+			"title": "生日贺卡",
+			"list": [{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/birthday/b5.jpg",
+					"text": "我怕白天声音太嘈杂，天使听不到我的声音，如今夜里终于安静下来，那么我也可以祝你生日快乐了。",
+					"bg": "birthday/b5",
+					"top": 280,
+					"left": 155,
+					"width": 450,
+					"height": 260,
+					"color": "#6a1a3a",
+					"fontSize": 30
+				},
 				{
-					"word":"犬がワンワンとほえる",
-					"zh-cn":"狗汪汪地叫"
-				}
-			],
-			"sentence":[
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/birthday/b6.jpg",
+					"text": "愿祝福萦绕着你，在你缤纷的人生之旅，在你永远与春天接壤的梦幻里。祝你：心想事成、幸福快乐！生日快乐！",
+					"bg": "birthday/b6",
+					"top": 334,
+					"left": 130,
+					"width": 510,
+					"height": 260,
+					"color": "#6a1a3a",
+					"fontSize": 30
+				},
 				{
-					"word":"犬がかみつく",
-					"zh-cn":"狗咬人"
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/birthday/b7.jpg",
+					"bg": "birthday/b7",
+					"text": "今天我学会了一首歌，好想唱给你听，可又离你那么远，只能告诉你是什么名字了，你一定要目不转睛盯着屏幕，好了，看到了吗!嘿嘿，生日快乐。",
+					"top": 285,
+					"left": 142,
+					"width": 480,
+					"height": 300,
+					"color": "#6a1a3a",
+					"fontSize": 30
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/birthday/b8.jpg",
+					"text": "茫茫人海，我们相遇，一种缘，一种分。彼此形影相依，我们永不分离。有甜一起享，有苦一起担。同舟共济那些年，是我们永远无法忘怀。生日快乐!",
+					"bg": "birthday/b8",
+					"top": 255,
+					"left": 134,
+					"width": 480,
+					"height": 300,
+					"color": "#6a1a3a",
+					"fontSize": 30
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/birthday/b9.jpg",
+					"bg": "birthday/b9",
+					"text": "一个小小的问候，是我对朋友无限的挂念;一句轻轻的祝福，是我对朋友真诚的眷恋;一首悠悠的心曲，是我对朋友生日的期盼;祝愿朋友生日乐欢天!",
+					"top": 265,
+					"left": 192,
+					"width": 420,
+					"height": 300,
+					"color": "#6a1a3a",
+					"fontSize": 30
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/birthday/b10.jpg",
+					"text": "我虽然不能陪你度过今天这个非凡的日子，在遥远地方，我一样祝福你生日快乐!",
+					"bg": "birthday/b10",
+					"top": 305,
+					"left": 134,
+					"width": 470,
+					"height": 300,
+					"color": "#6a1a3a",
+					"fontSize": 30
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/birthday/b11.jpg",
+					"bg": "birthday/b11",
+					"text": "我把心舟满载的幸福与喜悦，悄悄带给你：生日快乐。",
+					"top": 295,
+					"left": 122,
+					"width": 520,
+					"height": 300,
+					"color": "#6a1a3a",
+					"fontSize": 30
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/birthday/b12.jpg",
+					"text": "我怕白天声音太嘈杂，天使听不到我的声音，如今夜里终于安静下来，那么我也可以祝你生日快乐了。",
+					"bg": "birthday/b12",
+					"top": 235,
+					"left": 144,
+					"width": 450,
+					"height": 300,
+					"color": "#6a1a3a",
+					"fontSize": 30
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/birthday/b1.jpg",
+					"text": "我怕白天声音太嘈杂，天使听不到我的声音，如今夜里终于安静下来，那么我也可以祝你生日快乐了。",
+					"bg": "birthday/b1",
+					"top": 350,
+					"left": 135,
+					"width": 470,
+					"height": 200,
+					"color": "#6a1a3a",
+					"fontSize": 30
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/birthday/b2.jpg",
+					"text": "我怕白天声音太嘈杂，天使听不到我的声音，如今夜里终于安静下来，那么我也可以祝你生日快乐了。",
+					"bg": "birthday/b2",
+					"top": 364,
+					"left": 80,
+					"width": 580,
+					"height": 200,
+					"color": "#6a1a3a",
+					"fontSize": 30
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/birthday/b3.jpg",
+					"bg": "birthday/b3",
+					"text": "我怕白天声音太嘈杂，天使听不到我的声音，如今夜里终于安静下来，那么我也可以祝你生日快乐了。",
+					"top": 345,
+					"left": 142,
+					"width": 480,
+					"height": 200,
+					"color": "#6a1a3a",
+					"fontSize": 30
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/birthday/b4.jpg",
+					"text": "我怕白天声音太嘈杂，天使听不到我的声音，如今夜里终于安静下来，那么我也可以祝你生日快乐了。",
+					"bg": "birthday/b4",
+					"top": 325,
+					"left": 134,
+					"width": 480,
+					"height": 200,
+					"color": "#6a1a3a",
+					"fontSize": 30
 				}
-			]
-		},
-		{
-			"word":"猫（ねこ）",
-			"zh-cn":"猫-罗马读音【neko】",
-			"remember":[
-				"呢个:"
-			]
-		},
-		{
-			"word":"驢馬（ろば）",
-			"zh-cn":"驴-罗马读音【roba】",
-			"remember":[
-				"骡爸:骡子是马和驴结合的产品，所以骡子的爸爸就是驴"
-			]
-		},
-		{
-			"word":"豹（ひょう）",
-			"zh-cn":"豹子-罗马读音【hyou】",
-			"remember":[
-				"咻:猎豹以速度著称，时速达到100公里/时，从你面前咻得一下，就看不见了"
-			]
-		},
-		{
-			"word":"虎（とら）",
-			"zh-cn":"老虎-罗马读音【tora】",
-			"remember":[
-				"拖拉:你的老板是一只老虎，在老虎眼前，做事不敢拖啦"
-			]
-		},
-		{
-			"word":"熊（くま）",
-			"zh-cn":"熊-罗马读音【kuma】",
-			"remember":[
-				"哭吗:活熊取胆，如果是你，会痛的哭吗"
 			]
 		}
-		
-	]
+	},
+	"jieri": {
+		"card": [{
+			"order":1,
+			"time":"2/14",
+			"title": "情人节",
+			"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/thumbnail/qingren_thumb.jpg",
+			"from": "jieri",
+			"key": "qingren"
+		},
+		{
+			"order":2,
+			"time":"3/7-8",
+			"title": "女神节",
+			"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/thumbnail/nvsheng_thumb.jpg",
+			"from": "jieri",
+			"key": "nvshen",
+			"new":0
+		},
+		{
+			"order":3,
+			"time":"4/1",
+			"title": "愚人节",
+			"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/thumbnail/yuren_thumb.jpg",
+			"from": "jieri",
+			"key": "yuren",
+			"new":0
+		},
+		{
+			"order":4,
+			"time":"5/14",
+			"title": "母亲节",
+			"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/thumbnail/muqin_thumb.jpg",
+			"from": "jieri",
+			"key": "muqin",
+			"new":0
+		},
+		{
+			"order":4,
+			"time":"5/20",
+			"title": "520网络情人节",
+			"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/thumbnail/520_thumb.jpg",
+			"from": "jieri",
+			"key": "520",
+			"new":0
+		},
+		{
+			"order":4,
+			"time":"6/1",
+			"title": "六一儿童节",
+			"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/thumbnail/ertong_thumb.jpg",
+			"from": "jieri",
+			"key": "ertong",
+			"new":0
+		},
+		{
+			"order":5,
+			"time":"6/18",
+			"title": "父亲节",
+			"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/thumbnail/fuqin_thumb.jpg",
+			"from": "jieri",
+			"key": "fuqin",
+			"new":0
+		},
+		{
+			"order":6,
+			"time":"6/22",
+			"title": "端午节",
+			"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/thumbnail/duanwu_thumb.jpg",
+			"from": "jieri",
+			"key": "duanwu",
+			"new":0
+		},
+		{
+			"order":6,
+			"time":"8/22",
+			"title": "七夕节",
+			"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/thumbnail/qixi-thumb.jpg",
+			"from": "jieri",
+			"key": "qixi",
+			"new":0
+		},
+		{
+			"order":6,
+			"time":"9/10",
+			"title": "教师节",
+			"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/thumbnail/teacher_thumb.jpg",
+			"from": "jieri",
+			"key": "jiaoshi",
+			"new":0
+		},
+		{
+			"order":6,
+			"time":"9/29",
+			"title": "中秋节",
+			"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/thumbnail/zhongqiu_thumb.jpg",
+			"from": "jieri",
+			"key": "zhongqiu",
+			"new":1
+		},
+		{
+			"order":6,
+			"time":"10/1",
+			"title": "国庆节",
+			"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/thumbnail/guoqin_thumb.jpg",
+			"from": "jieri",
+			"key": "guoqin",
+			"new":1
+		},
+		{
+			"order":6,
+			"time":"12/24-25",
+			"title": "圣诞节",
+			"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/thumbnail/shengdan_thumb.jpg",
+			"from": "jieri",
+			"key": "shengdan"
+		},
+		{
+			"order":6,
+			"time":"1/1",
+			"title": "元旦",
+			"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/thumbnail/yuandan_thumb.jpg",
+			"from": "jieri",
+			"key": "yuandan"
+		},
+		{
+			"order":6,
+			"time":"2/2-3",
+			"title": "小年",
+			"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/thumbnail/xiaonian_thumb.jpg",
+			"from": "jieri",
+			"key": "xiaonian"
+		},
+		{
+			"order":6,
+			"time":"2/10-16",
+			"title": "除夕",
+			"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/thumbnail/chuxi_thumb.jpg",
+			"from": "jieri",
+			"key": "chuxi"
+		},
+		{
+			"order":6,
+			"time":"2/24",
+			"title": "元宵",
+			"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/thumbnail/yuanxiao_thumb.jpg",
+			"from": "jieri",
+			"key": "yuanxiao"
+		}
+		],
+		"qingren": {
+			"title": "情人节",
+			"list": [{
+				"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/qingren/qingren1.jpg",
+				"text": "不论阴晴圆缺，对你的心始终明亮的；不论时间久远，对你的情永恒不变的；不论是否在你身边，止不住对你深切的思念。2、14情人节，愿你快乐相伴，开心绕缠！",
+				"bg": "qingren/qingren1",
+				"top": 125,
+				"left": 134,
+				"width": 400,
+				"height": 260,
+				"color": "#6a1a3a",
+				"fontSize": 30
+			},
+			{
+				"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/qingren/qingren2.jpg",
+				"text": "从遇见你时的相盼，到不久后的相恋，再到此时的相思，亲爱的，我们一起渡过了无数的日日夜夜，我们曾经一起难过，也一起开心过。祝情人节你我一起快乐。",
+				"bg": "qingren/qingren2",
+				"top": 385,
+				"left": 134,
+				"width": 480,
+				"height": 300,
+				"color": "#6a1a3a",
+				"fontSize": 30
+			},
+			{
+				"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/qingren/qingren3.jpg",
+				"text": "丝丝清风缠你心情万缕，绵绵夏雨拌我思念如潮。寄语白云朵朵，与你共赏情人节。说不尽相思苦，道不完爱你浓，情人节明月能传情，只望鹊桥可相会，爱你到永远！祝你情人节快乐。",
+				"bg": "qingren/qingren3",
+				"top": 475,
+				"left": 84,
+				"width": 570,
+				"height": 260,
+				"color": "#6a1a3a",
+				"fontSize": 30
+			},
+			{
+				"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/qingren/qingren4.jpg",
+				"text": "浅浅相遇，深深相惜，心心相念，携一份牵挂穿过细水长流的平淡，与你长相厮守，一路走下去，依然相爱如昔，浪漫甜蜜，温暖相望，爱意无限。情人节，牵手一辈子，幸福无尽头。",
+				"bg": "qingren/qingren4",
+				"top": 325,
+				"left": 134,
+				"width": 480,
+				"height": 200,
+				"color": "#6a1a3a",
+				"fontSize": 30
+			},
+			{
+				"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/qingren/qingren5.jpg",
+				"text": "一心一意爱着你，永不离弃伴随你，幸福甜蜜拥有你，真心实意呵护你，爱你到老我愿意，句句真言表心意。14情人节，亲爱的，我爱你。",
+				"bg": "qingren/qingren5",
+				"top": 355,
+				"left": 94,
+				"width": 550,
+				"height": 200,
+				"color": "#6a1a3a",
+				"fontSize": 30
+			},
+			{
+				"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/qingren/qingren6.jpg",
+				"text": "今生与你相识，再无遗憾；今朝和你相知，三生有幸；今世你我相恋，缘分已定；情人节到了，今宵有你陪伴，我的世界灿烂一片。亲爱的，我陪你过情人节。",
+				"bg": "qingren/qingren6",
+				"top": 285,
+				"left": 104,
+				"width": 480,
+				"height": 200,
+				"color": "#6a1a3a",
+				"fontSize": 30
+			}]
+		},
+		"nvshen": {
+			"title": "女神节",
+			"list": [{
+				"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/nvsheng/nvsheng1.jpg",
+				"text": "你的笑，比过蒙娜丽莎；你的美，颠倒红尘众生；你的气质，折服万千美人；你的端庄，超越女神雅典娜；你的今生，享受瞩目和荣耀。女神节愿你过得开心！女神节快乐！",
+				"bg": "nvsheng/nvsheng1",
+				"top": 255,
+				"left": 124,
+				"width": 500,
+				"height": 260,
+				"color": "#6a1a3a",
+				"fontSize": 30
+			},
+			{
+				"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/nvsheng/nvsheng2.jpg",
+				"text": "女神节到了，我祝你身体倍棒，健康富；恋人甜蜜，爱情富；鸿运当头，运气富；合家幸福，家庭富；金榜题名，学业富；大展宏图，前途富！你就是真正的富女！快来都给我们沾沾光！女神节快乐！",
+				"bg": "nvsheng/nvsheng2",
+				"top": 285,
+				"left": 134,
+				"width": 500,
+				"height": 300,
+				"color": "#6a1a3a",
+				"fontSize": 30
+			},
+			{
+				"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/nvsheng/nvsheng3.jpg",
+				"text": "女神节到了，我祝你身体倍棒，健康富；恋人甜蜜，爱情富；鸿运当头，运气富；合家幸福，家庭富；金榜题名，学业富；大展宏图，前途富！你就是真正的富女！快来都给我们沾沾光！女神节快乐！",
+				"bg": "nvsheng/nvsheng3",
+				"top": 325,
+				"left": 134,
+				"width": 500,
+				"height": 300,
+				"color": "#6a1a3a",
+				"fontSize": 30
+			},
+			{
+				"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/nvsheng/nvsheng4.jpg",
+				"text": "女神节到了，我祝你身体倍棒，健康富；恋人甜蜜，爱情富；鸿运当头，运气富；合家幸福，家庭富；金榜题名，学业富；大展宏图，前途富！你就是真正的富女！快来都给我们沾沾光！女神节快乐！",
+				"bg": "nvsheng/nvsheng4",
+				"top": 425,
+				"left": 124,
+				"width": 500,
+				"height": 300,
+				"color": "#6a1a3a",
+				"fontSize": 30
+			},
+			{
+				"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/nvsheng/nvsheng5.jpg",
+				"text": "女神节到了，我祝你身体倍棒，健康富；恋人甜蜜，爱情富；鸿运当头，运气富；合家幸福，家庭富；金榜题名，学业富；大展宏图，前途富！你就是真正的富女！快来都给我们沾沾光！女神节快乐！",
+				"bg": "nvsheng/nvsheng5",
+				"top": 375,
+				"left": 124,
+				"width": 500,
+				"height": 300,
+				"color": "#6a1a3a",
+				"fontSize": 30
+			},
+			{
+				"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/nvsheng/nvsheng6.jpg",
+				"text": "女神节到了，我祝你身体倍棒，健康富；恋人甜蜜，爱情富；鸿运当头，运气富；合家幸福，家庭富；金榜题名，学业富；大展宏图，前途富！你就是真正的富女！快来都给我们沾沾光！女神节快乐！",
+				"bg": "nvsheng/nvsheng6",
+				"top": 375,
+				"left": 124,
+				"width": 500,
+				"height": 300,
+				"color": "#6a1a3a",
+				"fontSize": 30
+			}]
+		},
+		"yuren":{
+			"title": "愚人节",
+			"list": [{
+				"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/yuren/yuren1.jpg",
+				"text": "愚人节，请时刻保持警惕。愚人节，请小心一切未知事件。愚人节，记得用你聪明的大脑分辨。否则，我只能祝福你：愚人节快乐！",
+				"bg": "yuren/yuren1",
+				"top": 255,
+				"left": 124,
+				"width": 500,
+				"height": 260,
+				"color": "#6a1a3a",
+				"fontSize": 30
+			},
+			{
+				"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/yuren/yuren2.jpg",
+				"text": "百乐愚为先，无愚则不乐。愚人节以愚乐当道，让我们抛开一切教条，放下所有矜持，尽情的愚乐吧！祝你愚得恰到其分，乐得无边！",
+				"bg": "yuren/yuren2",
+				"top": 495,
+				"left": 124,
+				"width": 500,
+				"height": 260,
+				"color": "#6a1a3a",
+				"fontSize": 30
+			},
+			{
+				"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/yuren/yuren3.jpg",
+				"text": "愚人节到我心愁，想要愚人没缘由。聪明人儿到处有，各个都不会上钩。为博美女一回眸，只好就地翻跟头。愿你愚人节快乐，永远无忧！",
+				"bg": "yuren/yuren3",
+				"top": 455,
+				"left": 124,
+				"width": 500,
+				"height": 260,
+				"color": "#6a1a3a",
+				"fontSize": 30
+			},
+			{
+				"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/yuren/yuren4.jpg",
+				"text": "恭喜你获得愚人节幸运大奖，鉴于你多年对愚人界的支持，特授予你最佳愚人称号，收到后请傻笑五分钟，并用头撞墙以示感谢，愚人节快乐哦！",
+				"bg": "yuren/yuren4",
+				"top": 405,
+				"left": 124,
+				"width": 500,
+				"height": 260,
+				"color": "#6a1a3a",
+				"fontSize": 30
+			}]
+		},
+		"muqin": {
+			"title": "母亲节",
+			"list": [
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/muqin/muqin1.jpg",
+					"text": "您给了我们生命;您给了我们温暖;您给了我们快乐;您给了我们教养;您给了我们道理;您给了我们希望;您给了你们伟大的母爱。母亲节，祝愿全天下的母亲母亲节快乐，身体健康，心情舒畅，生活幸福！",
+					"bg": "muqin/muqin1",
+					"top": 285,
+					"left": 130,
+					"width": 500,
+					"height": 360,
+					"color": "#6a1a3a",
+					"fontSize": 38
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/muqin/muqin2.jpg",
+					"text": "走遍千山万水，看过潮起潮落，历经风吹雨打，尝尽酸甜苦辣，始终觉得您的怀抱最温暖！不论我走多远，心中永远眷恋的都是您。祝妈妈母亲节快乐！健康长寿！永远年轻！",
+					"bg": "muqin/muqin2",
+					"top": 185,
+					"left": 150,
+					"width": 360,
+					"height": 360,
+					"color": "#6a1a3a",
+					"fontSize": 38
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/muqin/muqin3.jpg",
+					"text": "母亲是一首动人的歌，带给我们优美的旋律，教会我们做人的道理;母亲是一首悠扬的诗，引导我们仙灵的圣境，授予我们生活的哲理。祝天下所有的母亲节日快乐!",
+					"bg": "muqin/muqin3",
+					"top": 425,
+					"left": 120,
+					"width": 510,
+					"height": 360,
+					"color": "#E91E63",
+					"fontSize": 38
+				}
+			]
+		},
+		"520": {
+			"title": "520网络情人节",
+			"list": [
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/520/5201.jpg",
+					"text": "我终于发现，这世界上有丰厚的爱，我不能辜负。于是我想对你说，我爱你，请你倾听……与你相识是一种缘，与你相恋是一种美，与你相伴是一种福，我愿和你相伴到永远。",
+					"bg": "520/5201",
+					"top": 460,
+					"left": 125,
+					"width": 510,
+					"height": 220,
+					"color": "#6a1a3a",
+					"fontSize": 35
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/520/5202.jpg",
+					"text": "我不是高调，只是突然开了窍，看着你会心跳；你对我如此重要，就像三餐不可缺少，也如氧气离不了；亲爱的别跑，我来把你照料，让你幸福冒泡！",
+					"bg": "520/5202",
+					"top": 235,
+					"left": 100,
+					"width": 580,
+					"height": 260,
+					"color": "blue",
+					"fontSize": 40
+				}
+			]
+		},
+		"ertong": {
+			"title": "六一儿童节",
+			"list": [
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/ertong/ertong1.jpg",
+					"text": "保留你的童心，让快乐与你轻轻拥抱，保留你的童真，让困难见你偷偷跑掉，保留你的童颜，让吉祥与幸福对你永远微笑，六一儿童节到，祝你永远开心，活泼，安心。",
+					"bg": "ertong/ertong1",
+					"top": 390,
+					"left": 115,
+					"width": 510,
+					"height": 220,
+					"color": "#6a1a3a",
+					"fontSize": 35
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/ertong/ertong2.jpg",
+					"text": "童心是帆，祝福是船；快乐的风，吹着童心的帆，载着对你这长不大的朋友的祝福，漂向美丽的海湾，轻轻地问候你：六一节快乐！",
+					"bg": "ertong/ertong2",
+					"top": 395,
+					"left": 90,
+					"width": 580,
+					"height": 260,
+					"color": "blue",
+					"fontSize": 40
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/ertong/ertong3.jpg",
+					"text": "保留你的童心，让快乐与你轻轻拥抱，保留你的童真，让困难见你偷偷跑掉，保留你的童颜，让吉祥与幸福对你永远微笑，六一儿童节到，祝你永远开心，活泼，安心。",
+					"bg": "ertong/ertong3",
+					"top": 330,
+					"left": 115,
+					"width": 550,
+					"height": 220,
+					"color": "#6a1a3a",
+					"fontSize": 38
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/ertong/ertong4.jpg",
+					"text": "童心是帆，祝福是船；快乐的风，吹着童心的帆，载着对你这长不大的朋友的祝福，漂向美丽的海湾，轻轻地问候你：六一节快乐！",
+					"bg": "ertong/ertong4",
+					"top": 245,
+					"left": 90,
+					"width": 580,
+					"height": 260,
+					"color": "blue",
+					"fontSize": 38
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/ertong/ertong5.jpg",
+					"text": "保留你的童心，让快乐与你轻轻拥抱，保留你的童真，让困难见你偷偷跑掉，保留你的童颜，让吉祥与幸福对你永远微笑，六一儿童节到，祝你永远开心，活泼，安心。",
+					"bg": "ertong/ertong5",
+					"top": 270,
+					"left": 115,
+					"width": 530,
+					"height": 220,
+					"color": "#6a1a3a",
+					"fontSize": 38
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/ertong/ertong6.jpg",
+					"text": "童心是帆，祝福是船；快乐的风，吹着童心的帆，载着对你这长不大的朋友的祝福，漂向美丽的海湾，轻轻地问候你：六一节快乐！",
+					"bg": "ertong/ertong6",
+					"top": 305,
+					"left": 120,
+					"width": 550,
+					"height": 260,
+					"color": "blue",
+					"fontSize": 38
+				}
+			]
+		},
+		"fuqin": {
+			"title": "父亲节",
+			"list": [
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/fuqin/fuqin1.jpg",
+					"text": "您的扶搀相伴，让我健康成长；您的严厉教诲，让我不断进步；您的希望牵挂，让我成才成功；您的支持鼓励，让我不怕风雨。伟大的父亲，谢谢您，祝您父亲节快乐，愿您幸福一生，健康永随！",
+					"bg": "fuqin/fuqin1",
+					"top": 385,
+					"left": 100,
+					"width": 530,
+					"height": 300,
+					"color": "#6a1a3a",
+					"fontSize": 38
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/fuqin/fuqin2.jpg",
+					"text": "你用宽广的胸襟包容我的过错，你用榜样的力量坚定我的理想，你用慈爱的笑容激励我的成功，你就是我一生敬爱的父亲。父亲节到了，爸爸，祝你健康幸福，开心快乐！",
+					"bg": "fuqin/fuqin2",
+					"top": 155,
+					"left": 120,
+					"width": 530,
+					"height": 300,
+					"color": "#6a1a3a",
+					"fontSize": 38
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/fuqin/fuqin3.jpg",
+					"text": "敬爱的爸爸，祝福您岁岁愉快，年年如意。对我的爱，温暖如春；对我的照顾，无微不至；您是我的好爸爸，是我永远的骄傲，父亲节到了，送上真心的祝福，愿您父亲节过得快乐！",
+					"bg": "fuqin/fuqin3",
+					"top": 295,
+					"left": 130,
+					"width": 500,
+					"height": 300,
+					"color": "#6a1a3a",
+					"fontSize": 38
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/fuqin/fuqin4.jpg",
+					"text": "您的坚忍不拔和铮铮硬骨是我今生的榜样，我从您那儿汲取到奋发的力量，走过挫折，迈向成功，爸爸，您是我的榜样，父亲节要到了，想对您说：我爱您！祝您父亲节快乐！",
+					"bg": "fuqin/fuqin4",
+					"top": 305,
+					"left": 130,
+					"width": 500,
+					"height": 300,
+					"color": "#6a1a3a",
+					"fontSize": 38
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/fuqin/fuqin5.jpg",
+					"text": "您的扶搀相伴，让我健康成长；您的严厉教诲，让我不断进步；您的希望牵挂，让我成才成功；您的支持鼓励，让我不怕风雨。伟大的父亲，谢谢您，祝您父亲节快乐，愿您幸福一生，健康永随！",
+					"bg": "fuqin/fuqin5",
+					"top": 385,
+					"left": 130,
+					"width": 500,
+					"height": 300,
+					"color": "#000",
+					"fontSize": 38,
+					"rotate":-5
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/fuqin/fuqin6.jpg",
+					"text": "你用宽广的胸襟包容我的过错，你用榜样的力量坚定我的理想，你用慈爱的笑容激励我的成功，你就是我一生敬爱的父亲。父亲节到了，爸爸，祝你健康幸福，开心快乐！",
+					"bg": "fuqin/fuqin6",
+					"top": 350,
+					"left": 140,
+					"width": 490,
+					"height": 300,
+					"color": "#000",
+					"lineHeight":68,
+					"fontSize": 38
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/fuqin/fuqin7.jpg",
+					"text": "敬爱的爸爸，祝福您岁岁愉快，年年如意。对我的爱，温暖如春；对我的照顾，无微不至；您是我的好爸爸，是我永远的骄傲，父亲节到了，送上真心的祝福，愿您父亲节过得快乐！",
+					"bg": "fuqin/fuqin7",
+					"top": 230,
+					"left": 130,
+					"width": 500,
+					"height": 300,
+					"color": "#795548",
+					"fontSize": 38,
+					"lineHeight":68,
+					"rotate":-5
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/fuqin/fuqin8.jpg",
+					"text": "您的坚忍不拔和铮铮硬骨是我今生的榜样，我从您那儿汲取到奋发的力量，走过挫折，迈向成功，爸爸，您是我的榜样，父亲节要到了，想对您说：我爱您！祝您父亲节快乐！",
+					"bg": "fuqin/fuqin8",
+					"top": 300,
+					"left": 160,
+					"width": 430,
+					"height": 300,
+					"color": "#000",
+					"fontSize": 35,
+					"lineHeight":67,
+					"rotate":-13
+				}
+			]
+		},
+		"duanwu": {
+			"title": "端午节",
+			"list": [
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/duanwu/duanwu1.jpg",
+					"text": "五月到端午，愿你端来快乐，无烦无恼；端来好运，无时无刻；端来健康，无忧无虑；端来财富，五谷丰登；端来祝福，五彩缤纷。端午节安康！",
+					"bg": "duanwu/duanwu1",
+					"top": 370,
+					"left": 100,
+					"width": 560,
+					"height": 300,
+					"color": "#000",
+					"fontSize": 38,
+					"lineHeight":67,
+					"rotate":0
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/duanwu/duanwu2.jpg",
+					"text": "端午佳节，喜上眉梢，菖蒲高挂，吉祥满屋，张灯结彩，喜笑颜开，龙舟竞驰，欢喜连连，粽叶飘香，神清气爽，送份祝福，聊表寸心，愿君开怀，幸福如意！身体健康，福寿绵长！",
+					"bg": "duanwu/duanwu2",
+					"top": 200,
+					"left": 100,
+					"width": 560,
+					"height": 300,
+					"color": "#000",
+					"fontSize": 38,
+					"lineHeight":67,
+					"rotate":0
+				}
+			]
+		},
+		"qixi": {
+			"title": "七夕节",
+			"list": [
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/qixi/qixi1.jpg",
+					"text": "我愿化作一枝玫瑰花，被你紧紧握在手里，为你吐露芬芳。亲爱的，七夕快乐！",
+					"bg": "qixi/qixi1",
+					"top": 320,
+					"left": 100,
+					"width": 560,
+					"height": 300,
+					"color": "#333",
+					"fontSize": 38,
+					"lineHeight":67,
+					"rotate":0
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/qixi/qixi2.jpg",
+					"text": "我愿化作一枝玫瑰花，被你紧紧握在手里，为你吐露芬芳。亲爱的，七夕快乐！",
+					"bg": "qixi/qixi2",
+					"top": 490,
+					"left": 100,
+					"width": 560,
+					"height": 300,
+					"color": "#333",
+					"fontSize": 38,
+					"lineHeight":67,
+					"rotate":0
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/qixi/qixi3.jpg",
+					"text": "我愿化作一枝玫瑰花，被你紧紧握在手里，为你吐露芬芳。亲爱的，七夕快乐！",
+					"bg": "qixi/qixi3",
+					"top": 550,
+					"left": 100,
+					"width": 560,
+					"height": 300,
+					"color": "#000",
+					"fontSize": 38,
+					"lineHeight":67,
+					"rotate":0
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/qixi/qixi4.jpg",
+					"text": "我愿化作一枝玫瑰花，被你紧紧握在手里，为你吐露芬芳。亲爱的，七夕快乐！",
+					"bg": "qixi/qixi4",
+					"top": 550,
+					"left": 100,
+					"width": 560,
+					"height": 300,
+					"color": "#000",
+					"fontSize": 38,
+					"lineHeight":67,
+					"rotate":0
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/qixi/qixi5.jpg",
+					"text": "我愿化作一枝玫瑰花，被你紧紧握在手里，为你吐露芬芳。亲爱的，七夕快乐！",
+					"bg": "qixi/qixi5",
+					"top": 550,
+					"left": 100,
+					"width": 560,
+					"height": 300,
+					"color": "#000",
+					"fontSize": 38,
+					"lineHeight":67,
+					"rotate":0
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/qixi/qixi6.jpg",
+					"text": "我愿化作一枝玫瑰花，被你紧紧握在手里，为你吐露芬芳。亲爱的，七夕快乐！",
+					"bg": "qixi/qixi6",
+					"top": 460,
+					"left": 100,
+					"width": 560,
+					"height": 300,
+					"color": "#000",
+					"fontSize": 38,
+					"lineHeight":67,
+					"rotate":0
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/qixi/qixi7.jpg",
+					"text": "我愿化作一枝玫瑰花，被你紧紧握在手里，为你吐露芬芳。亲爱的，七夕快乐！",
+					"bg": "qixi/qixi7",
+					"top": 550,
+					"left": 100,
+					"width": 560,
+					"height": 300,
+					"color": "#000",
+					"fontSize": 38,
+					"lineHeight":67,
+					"rotate":0
+				}
+			]
+		},
+		"jiaoshi": {
+			"title": "教师节",
+			"list": [
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/teacher/teacher1.jpg",
+					"text": "您用友爱缩短着心与心的路程，您是那阳光融化冷漠的冰雪，您是那向导引人走出科学的迷宫，桃李芬芳是你的欢乐，默默奉献无私的心灵。光荣的教师，辛勤的园丁，祝您教师节快乐！",
+					"bg": "teacher/teacher1",
+					"top": 280,
+					"left": 120,
+					"width": 470,
+					"height": 300,
+					"color": "#e86fa3",
+					"fontSize": 36,
+					"lineHeight":67,
+					"rotate":2
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/teacher/teacher2.jpg",
+					"text": "您用友爱缩短着心与心的路程，您是那阳光融化冷漠的冰雪，您是那向导引人走出科学的迷宫，桃李芬芳是你的欢乐，默默奉献无私的心灵。光荣的教师，辛勤的园丁，祝您教师节快乐！",
+					"bg": "teacher/teacher2",
+					"top": 210,
+					"left": 100,
+					"width": 540,
+					"height": 300,
+					"color": "#e86fa3",
+					"fontSize": 36,
+					"lineHeight":65,
+					"rotate":0
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/teacher/teacher3.jpg",
+					"text": "您用友爱缩短着心与心的路程，您是那阳光融化冷漠的冰雪，您是那向导引人走出科学的迷宫，桃李芬芳是你的欢乐，默默奉献无私的心灵。光荣的教师，辛勤的园丁，祝您教师节快乐！",
+					"bg": "teacher/teacher3",
+					"top": 415,
+					"left": 110,
+					"width": 540,
+					"height": 300,
+					"color": "#e2a969",
+					"fontSize": 33,
+					"lineHeight":59,
+					"rotate":0
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/teacher/teacher4.jpg",
+					"text": "您用友爱缩短着心与心的路程，您是那阳光融化冷漠的冰雪，您是那向导引人走出科学的迷宫，桃李芬芳是你的欢乐，默默奉献无私的心灵。光荣的教师，辛勤的园丁，祝您教师节快乐！",
+					"bg": "teacher/teacher4",
+					"top": 270,
+					"left": 100,
+					"width": 560,
+					"height": 300,
+					"color": "#379be0",
+					"fontSize": 35,
+					"lineHeight":80,
+					"rotate":0
+				}
+			]
+		},
+		"zhongqiu": {
+			"title": "中秋节",
+			"list": [
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/zhongqiu/zhongqiu1.jpg",
+					"text": "明月挂天边，祝福到眼前，愿您的生活像月饼圆圆满满，爱情象桂香甜蜜芬芳，事业象圆月光彩明亮，人生象彩灯璀璨多姿！祝您中秋节快乐！",
+					"bg": "zhongqiu/zhongqiu1",
+					"top": 230,
+					"left": 235,
+					"width": 470,
+					"height": 300,
+					"color": "#11255a",
+					"fontSize": 36,
+					"lineHeight":60,
+					"rotate":0
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/zhongqiu/zhongqiu2.jpg",
+					"text": "明月挂天边，祝福到眼前，愿您的生活像月饼圆圆满满，爱情象桂香甜蜜芬芳，事业象圆月光彩明亮，人生象彩灯璀璨多姿！祝您中秋节快乐！",
+					"bg": "zhongqiu/zhongqiu2",
+					"top": 270,
+					"left": 130,
+					"width": 430,
+					"height": 300,
+					"color": "#0d0d12",
+					"fontSize": 36,
+					"lineHeight":65,
+					"rotate":0
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/zhongqiu/zhongqiu3.jpg",
+					"text": "明月挂天边，祝福到眼前，愿您的生活像月饼圆圆满满，爱情象桂香甜蜜芬芳，事业象圆月光彩明亮，人生象彩灯璀璨多姿！祝您中秋节快乐！",
+					"bg": "zhongqiu/zhongqiu3",
+					"top": 280,
+					"left": 135,
+					"width": 500,
+					"height": 300,
+					"color": "#379be0",
+					"fontSize": 35,
+					"lineHeight":60,
+					"rotate":0
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/zhongqiu/zhongqiu4.jpg",
+					"text": "明月挂天边，祝福到眼前，愿您的生活像月饼圆圆满满，爱情象桂香甜蜜芬芳，事业象圆月光彩明亮，人生象彩灯璀璨多姿！祝您中秋节快乐！",
+					"bg": "zhongqiu/zhongqiu4",
+					"top": 270,
+					"left": 100,
+					"width": 560,
+					"height": 300,
+					"color": "#379be0",
+					"fontSize": 36,
+					"lineHeight":80,
+					"rotate":0
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/zhongqiu/zhongqiu5.jpg",
+					"text": "明月挂天边，祝福到眼前，愿您的生活像月饼圆圆满满，爱情象桂香甜蜜芬芳，事业象圆月光彩明亮，人生象彩灯璀璨多姿！祝您中秋节快乐！",
+					"bg": "zhongqiu/zhongqiu5",
+					"top": 275,
+					"left": 100,
+					"width": 560,
+					"height": 300,
+					"color": "#5a4f2e",
+					"fontSize": 36,
+					"lineHeight":80,
+					"rotate":0
+				}
+			]
+		},
+		"guoqin": {
+			"title": "国庆节",
+			"list": [
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/guoqing/guoqing1.jpg",
+					"text": "",
+					"bg": "guoqing/guoqing1",
+					"top": 270,
+					"left": 100,
+					"width": 560,
+					"height": 300,
+					"color": "#379be0",
+					"fontSize": 35,
+					"lineHeight":80,
+					"rotate":0
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/guoqing/guoqing2.jpg",
+					"text": "",
+					"bg": "guoqing/guoqing2",
+					"top": 270,
+					"left": 100,
+					"width": 560,
+					"height": 300,
+					"color": "#379be0",
+					"fontSize": 35,
+					"lineHeight":80,
+					"rotate":0
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/guoqing/guoqing3.jpg",
+					"text": "",
+					"bg": "guoqing/guoqing3",
+					"top": 270,
+					"left": 100,
+					"width": 560,
+					"height": 300,
+					"color": "#379be0",
+					"fontSize": 35,
+					"lineHeight":80,
+					"rotate":0
+				}
+			]
+		},
+		"shengdan": {
+			"title": "圣诞节",
+			"list": [{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/shengdan/sd4.jpg",
+					"text": "滑落的流星，是我对你的思念；飞舞的雪花，是我对你的牵挂，闪烁的圣诞树，是我对你的祝福。愿你拥有一个幸福快乐的平安夜。",
+					"bg": "shengdan/sd4",
+					"top": 235,
+					"left": 106,
+					"width": 550,
+					"height": 300,
+					"color": "#fff",
+					"fontSize": 32
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/shengdan/sd2.jpg",
+					"text": "平平安安平安夜，快快乐乐圣诞节，甜甜蜜蜜陪情人，开开心心会朋友，幸幸福福度佳节。愿你的长筒袜塞满温馨的祝福和美好的礼物！节日愉快！",
+					"bg": "shengdan/sd2",
+					"top": 235,
+					"left": 60,
+					"width": 400,
+					"height": 150,
+					"color": "#fff",
+					"fontSize": 32
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/shengdan/sd1.jpg",
+					"text": "我默默地祈祷，愿圣诞老人能在这个即将到来的圣诞之夜，送我一个同我牵手同伴共同度过这奇妙的圣诞夜，结果它将你送给了我。",
+					"bg": "shengdan/sd1",
+					"top": 235,
+					"left": 110,
+					"width": 540,
+					"height": 100,
+					"color": "#fff",
+					"fontSize": 32
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/shengdan/sd3.jpg",
+					"text": "温馨的是平安夜，快乐的是圣诞节，悠扬的是鹿铃声，璀璨的是五彩灯，轻柔的是牵挂情，暖暖的是朋友心，忙碌的是短信响，幸福的是祝福到。圣诞快乐！",
+					"bg": "shengdan/sd3",
+					"top": 225,
+					"left": 103,
+					"width": 540,
+					"height": 150,
+					"color": "#fff",
+					"fontSize": 32
+				}
+			]
+		},
+		"yuandan": {
+			"title": "元旦(兔年元旦系列)",
+			"list": [{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/yuandan/yd1.jpg",
+					"text": "元旦将至，美妙的钟声又要敲响，让它敲响你年的幸运之门，带给你一整年的健康平安、幸福快乐、如意吉祥。提前祝你元旦快乐!",
+					"bg": "yuandan/yd1",
+					"top": 365,
+					"left": 103,
+					"width": 540,
+					"height": 100,
+					"color": "#fff",
+					"fontSize": 28
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/yuandan/yd2.jpg",
+					"text": "元旦将至，美妙的钟声又要敲响，让它敲响你年的幸运之门，带给你一整年的健康平安、幸福快乐、如意吉祥。提前祝你元旦快乐!",
+					"bg": "yuandan/yd2",
+					"top": 365,
+					"left": 290,
+					"width": 400,
+					"height": 150,
+					"color": "#fff",
+					"fontSize": 28
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/yuandan/yd3.jpg",
+					"text": "元旦将至，美妙的钟声又要敲响，让它敲响你年的幸运之门，带给你一整年的健康平安、幸福快乐、如意吉祥。提前祝你元旦快乐!",
+					"bg": "yuandan/yd3",
+					"top": 455,
+					"left": 129,
+					"width": 500,
+					"height": 150,
+					"color": "#6a1a3a",
+					"fontSize": 28
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/yuandan/yd4.jpg",
+					"text": "元旦将至，美妙的钟声又要敲响，让它敲响你年的幸运之门，带给你一整年的健康平安、幸福快乐、如意吉祥。提前祝你元旦快乐!",
+					"bg": "yuandan/yd4",
+					"top": 475,
+					"left": 83,
+					"width": 580,
+					"height": 150,
+					"color": "#6a1a3a",
+					"fontSize": 28
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/yuandan/yd5.jpg",
+					"text": "元旦将至，美妙的钟声又要敲响，让它敲响你年的幸运之门，带给你一整年的健康平安、幸福快乐、如意吉祥。提前祝你元旦快乐!",
+					"bg": "yuandan/yd5",
+					"top": 365,
+					"left": 123,
+					"width": 530,
+					"height": 150,
+					"color": "#fff",
+					"fontSize": 28
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/yuandan/yd7.jpg",
+					"text": "元旦将至，美妙的钟声又要敲响，让它敲响你年的幸运之门，带给你一整年的健康平安、幸福快乐、如意吉祥。提前祝你元旦快乐!",
+					"bg": "yuandan/yd7",
+					"top": 270,
+					"left": 36,
+					"width": 232,
+					"height": 450,
+					"color": "#fff",
+					"fontSize": 30
+				}
+			]
+		},
+		"xiaonian": {
+			"title": "小年(兔年小年系列)",
+			"list": [{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/xiaonian/xiaon1.jpg",
+					"text": "小年到，雪花飘，瑞雪纷飞丰年兆；送灶神，扫灶膛，好运连连来送到；贴窗花，购年货，辛苦繁忙开颜笑。愿你小年多快乐，幸福美满永围绕！",
+					"bg": "xiaonian/xiaon1",
+					"top": 425,
+					"left": 76,
+					"width": 550,
+					"height": 300,
+					"color": "#fff",
+					"fontSize": 32
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/xiaonian/xiaon2.jpg",
+					"text": "小年到来年味浓，大街小巷灯笼红。人潮如水街上涌，购物忙碌闹哄哄。家中卫生都打扫，干干净净开笑容。单等新春年到，合家团聚乐融融。朋友祝福潮你涌，问候不断情谊重。小年快乐！",
+					"bg": "xiaonian/xiaon2",
+					"top": 305,
+					"left": 76,
+					"width": 350,
+					"height": 300,
+					"color": "#fff",
+					"fontSize": 32
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/xiaonian/xiaon3.jpg",
+					"text": "该吃吃，该喝喝，遇事别往心里搁；泡着澡，看着表，舒服一秒是一秒；甜的多，苦的少，生活像颗五味枣；心情好，最重要，快乐幸福乐逍遥！小年快乐。",
+					"bg": "xiaonian/xiaon3",
+					"top": 265,
+					"left": 56,
+					"width": 300,
+					"height": 300,
+					"color": "#f5ffca",
+					"fontSize": 32
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/xiaonian/xiaon4.jpg",
+					"text": "敲起锣，打起鼓，小年欢笑又歌舞；福星照，新年到，福神对你呵呵笑；事业火，钞票多，一路唱响平安歌；好运旺，身体棒，快乐吉祥又安康！",
+					"bg": "xiaonian/xiaon4",
+					"top": 455,
+					"left": 66,
+					"width": 400,
+					"height": 300,
+					"color": "#fff",
+					"fontSize": 32
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/xiaonian/xiaon5.jpg",
+					"text": "小年到，人繁忙，打扫卫生净灶膛；室清洁，心欢畅，购物买菜街上逛；贴窗花，备佳肴，新年准备都妥当。祝你小年好运到，快快乐乐无烦恼！",
+					"bg": "xiaonian/xiaon5",
+					"top": 85,
+					"left": 90,
+					"width": 550,
+					"height": 300,
+					"color": "#fff",
+					"fontSize": 32
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/xiaonian/xiaon6.jpg",
+					"text": "茫茫人海，你是我不能放弃的牵挂，也是我最无法释怀的无奈，无论你走到哪里，我都会祝福你，小年快乐，年年德福！",
+					"bg": "xiaonian/xiaon6",
+					"top": 235,
+					"left": 56,
+					"width": 320,
+					"height": 300,
+					"color": "#f5ffca",
+					"fontSize": 32
+				}
+			]
+		},
+		"chuxi": {
+			"title": "除夕(兔年除夕系列)",
+			"list": [{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/chuxi/chuxi-1.jpg",
+					"text": "举杯欢庆除夕夜，万家共饮吉祥年，鞭炮奏响佳节乐，对联写满幸福春，又是一年除夕到，美好祝福送君，愿君万事皆如意，合家欢乐百事兴，除夕快乐！",
+					"bg": "chuxi/chuxi-1",
+					"top": 215,
+					"left": 116,
+					"width": 550,
+					"height": 300,
+					"color": "#fff",
+					"fontSize": 34
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/chuxi/chuyi-1.jpg",
+					"text": "大年初一给你拜年了，祝福是份真心意，不用千言，不用万语，默默地唱首心曲，愿你岁岁平安如意！",
+					"bg": "chuxi/chuyi-1",
+					"top": 215,
+					"left": 116,
+					"width": 550,
+					"height": 300,
+					"color": "#fff",
+					"fontSize": 34
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/chuxi/chuer-1.jpg",
+					"text": "新年新气象，祝福送不断，初二祝福到。迎来春节，送走冬季，迎来春天，迎来拼搏。祝你事业步步高，幸福永绵绵！",
+					"bg": "chuxi/chuer-1",
+					"top": 215,
+					"left": 116,
+					"width": 550,
+					"height": 300,
+					"color": "#fff",
+					"fontSize": 34
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/chuxi/chusan-1.jpg",
+					"text": "大年初三，开门大吉，喜气洋洋拜大年。一拜全家好，二拜困难少。三拜烦恼消，四拜不变老。五拜儿女孝，六拜幸福绕。七拜忧愁抛，八拜收入高。九拜平安罩，十拜乐逍遥。",
+					"bg": "chuxi/chusan-1",
+					"top": 215,
+					"left": 116,
+					"width": 550,
+					"height": 300,
+					"color": "#fff",
+					"fontSize": 34
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/chuxi/chusi-1.jpg",
+					"text": "大年初四，万象更新。给你拜年啦，愿你身体好，心情好，时时处处随“新”所欲。事业旺，财运旺，桩桩件件称“新”如意。春节快乐。",
+					"bg": "chuxi/chusi-1",
+					"top": 215,
+					"left": 116,
+					"width": 550,
+					"height": 300,
+					"color": "#fff",
+					"fontSize": 34
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/chuxi/chuwu-1.jpg",
+					"text": "正月初五财神到，新春喜洋洋，福星耀华堂，生意更兴隆，儿女题金榜，人人都如意。恭喜发财！",
+					"bg": "chuxi/chuwu-1",
+					"top": 215,
+					"left": 116,
+					"width": 550,
+					"height": 300,
+					"color": "#fff",
+					"fontSize": 34
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/chuxi/chuliu-1.jpg",
+					"text": "正月初六到，送你四个“同心圆”：心圆梦圆，团团圆圆；财源福源，左右逢源；情缘友缘，相逢有缘；心愿祝愿，愿愿随心，祝你春节快乐。",
+					"bg": "chuxi/chuliu-1",
+					"top": 215,
+					"left": 116,
+					"width": 550,
+					"height": 300,
+					"color": "#fff",
+					"fontSize": 34
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/chuxi/chuqi-1.jpg",
+					"text": "大年初七祝福到，愿你抱着平安，拥着健康，揣着幸福，携着快乐，搂着温馨，带着甜蜜，牵着财运，拽着吉祥，迈入新年，快乐度过每一天！",
+					"bg": "chuxi/chuqi-1",
+					"top": 215,
+					"left": 116,
+					"width": 550,
+					"height": 300,
+					"color": "#fff",
+					"fontSize": 34
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/chuxi/chuba-1.jpg",
+					"text": "年初八，好运来，幸福家，财星照，财神抱，财门开，财运到，笑呵呵，乐逍遥，好日子，天天有，祝福你，财源滚，财气旺，行大运，万事昌，发一发，满心喜，满家发！",
+					"bg": "chuxi/chuba-1",
+					"top": 215,
+					"left": 116,
+					"width": 550,
+					"height": 300,
+					"color": "#fff",
+					"fontSize": 34
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/chuxi/chuxi-2.jpg",
+					"text": "举杯欢庆除夕夜，万家共饮吉祥年，鞭炮奏响佳节乐，对联写满幸福春，又是一年除夕到，美好祝福送君，愿君万事皆如意，合家欢乐百事兴，除夕快乐！",
+					"bg": "chuxi/chuxi-2",
+					"top": 455,
+					"left": 96,
+					"width": 555,
+					"height": 300,
+					"color": "#f5ffca",
+					"fontSize": 34
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/chuxi/chuyi-2.jpg",
+					"text": "大年初一给你拜年了，祝福是份真心意，不用千言，不用万语，默默地唱首心曲，愿你岁岁平安如意！",
+					"bg": "chuxi/chuyi-2",
+					"top": 455,
+					"left": 96,
+					"width": 550,
+					"height": 300,
+					"color": "#f5ffca",
+					"fontSize": 34
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/chuxi/chuer-2.jpg",
+					"text": "新年新气象，祝福送不断，初二祝福到。迎来春节，送走冬季，迎来春天，迎来拼搏。祝你事业步步高，幸福永绵绵！",
+					"bg": "chuxi/chuer-2",
+					"top": 405,
+					"left": 50,
+					"width": 380,
+					"height": 300,
+					"color": "#f5ffca",
+					"fontSize": 34
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/chuxi/chusan-2.jpg",
+					"text": "大年初三，开门大吉，喜气洋洋拜大年。一拜全家好，二拜困难少。三拜烦恼消，四拜不变老。五拜儿女孝，六拜幸福绕。七拜忧愁抛，八拜收入高。九拜平安罩，十拜乐逍遥。",
+					"bg": "chuxi/chusan-2",
+					"top": 405,
+					"left": 50,
+					"width": 410,
+					"height": 300,
+					"color": "#f5ffca",
+					"fontSize": 34
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/chuxi/chusi-2.jpg",
+					"text": "大年初四，万象更新。给你拜年啦，愿你身体好，心情好，时时处处随“新”所欲。事业旺，财运旺，桩桩件件称“新”如意。春节快乐。",
+					"bg": "chuxi/chusi-2",
+					"top": 415,
+					"left": 50,
+					"width": 390,
+					"height": 300,
+					"color": "#f5ffca",
+					"fontSize": 34
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/chuxi/chuwu-2.jpg",
+					"text": "正月初五财神到，新春喜洋洋，福星耀华堂，生意更兴隆，儿女题金榜，人人都如意。恭喜发财！",
+					"bg": "chuxi/chuwu-2",
+					"top": 485,
+					"left": 96,
+					"width": 550,
+					"height": 300,
+					"color": "#f5ffca",
+					"fontSize": 34
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/chuxi/chuliu-2.jpg",
+					"text": "正月初六到，送你四个“同心圆”：心圆梦圆，团团圆圆；财源福源，左右逢源；情缘友缘，相逢有缘；心愿祝愿，愿愿随心，祝你春节快乐。",
+					"bg": "chuxi/chuliu-2",
+					"top": 475,
+					"left": 96,
+					"width": 550,
+					"height": 300,
+					"color": "#f5ffca",
+					"fontSize": 34
+				}
+			]
+		},
+		"yuanxiao": {
+			"title": "元宵(兔年元宵系列)",
+			"list": [{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/yuanxiao/yuanxiao1.jpg",
+					"text": "元宵佳节，团团圆圆！我祝您：左右逢'圆'广进财源！人缘福缘，'圆圆'不断！ 甜甜蜜蜜， 营养康健,幸福美满！ ",
+					"bg": "yuanxiao/yuanxiao1",
+					"top": 235,
+					"left": 76,
+					"width": 550,
+					"height": 300,
+					"color": "#fff",
+					"fontSize": 32
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/yuanxiao/yuanxiao2.jpg",
+					"text": "灯十五灯笼门前悬，迎送亲朋照途前。十五赏月元宵品，甜蜜团圆幸福长。今此一别告一段，奔赴岗位工作干。来日方长庆功饮，再聚齐欢丰功宴。愿朋友十五欢颜，干事业连年辉煌！",
+					"bg": "yuanxiao/yuanxiao2",
+					"top": 265,
+					"left": 90,
+					"width": 550,
+					"height": 300,
+					"color": "#fff",
+					"fontSize": 32
+				}
+			]
+		}
+	},
+	"gaokao": {
+		"card": [
+			{
+				"title": "高考贺卡",
+				"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/thumbnail/gaokao_thumb.jpg",
+				"from": "gaokao",
+				"key": "gaokao",
+				"new":0
+			},
+			{
+				"title": "中考贺卡",
+				"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/thumbnail/zhongkao_thumb.jpg",
+				"from": "gaokao",
+				"key": "zhongkao",
+				"new":0
+			}
+		],
+		"gaokao": {
+			"title": "高考贺卡",
+			"list": [
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/gaokao/gaokao1.jpg",
+					"text": "",
+					"bg": "gaokao/gaokao1",
+					"top": 280,
+					"left": 155,
+					"width": 450,
+					"height": 260,
+					"color": "#6a1a3a",
+					"fontSize": 30
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/gaokao/gaokao2.jpg",
+					"text": "",
+					"bg": "gaokao/gaokao2",
+					"top": 280,
+					"left": 155,
+					"width": 450,
+					"height": 260,
+					"color": "#6a1a3a",
+					"fontSize": 30
+				}
+			]
+		},
+		"zhongkao": {
+			"title": "中考贺卡",
+			"list": [
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/zhongkao/zhongkao1.jpg",
+					"text": "",
+					"bg": "zhongkao/zhongkao1",
+					"top": 280,
+					"left": 155,
+					"width": 450,
+					"height": 260,
+					"color": "#6a1a3a",
+					"fontSize": 30
+				},
+				{
+					"url": "https://gitee.com/chenzuheng001/my-font-library/raw/master/diycard/zhongkao/zhongkao2.jpg",
+					"text": "",
+					"bg": "zhongkao/zhongkao2",
+					"top": 280,
+					"left": 155,
+					"width": 450,
+					"height": 260,
+					"color": "#6a1a3a",
+					"fontSize": 30
+				}
+			]
+		}
+	}
 }
